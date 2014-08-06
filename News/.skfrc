@@ -1,0 +1,21 @@
+# This configuration file contains the default behavior of the 
+# Statikiss framework. You may edit it, but keep in mind that 
+# having a copy of the original somewhere is always good. 
+
+# Be aware that this file is a bash script. 
+
+# Important: some plugins may use specific configuration variables. 
+# You should declare these in a separate file and import this file 
+# by uncommenting and editing this line:
+# source .plain_markdown.conf 
+
+
+# Basics
+export title="Statikiss framework's blog plugin"
+export subtitle="For your bloggily needs"
+export email="moebiuseye@jeannedhack.org"
+
+# Technical
+export plugin="markdown_blog"
+export style_inherit="true"
+
